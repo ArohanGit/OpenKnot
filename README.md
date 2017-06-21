@@ -20,4 +20,4 @@ next, open terminal or <b>cmd</b> and install the http-server module globally on
   
   now you should be able to access your files 
   
-  (via something like http://localhost:1337/myfile.html) in a web browser.
+  (via something like http://localhost:1337/index.html) in a web browser.
