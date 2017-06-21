@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>OpenKnot</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index-grid.css">
+  <link rel="stylesheet" href="css/index.css">
+  <style>
+    @-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);
+    			-moz-transform: rotate(0deg);
+    		  -o-transform: rotate(0deg);
+    			-ms-transform: rotate(0deg);
+    			transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);
+    			-moz-transform: rotate(359deg);
+    		  -o-transform: rotate(359deg);
+    			-ms-transform: rotate(359deg);
+    			transform: rotate(359deg);
+    }      
+		}
+    
+    .rotation {
+    -webkit-animation: rotation 10s infinite linear;
+    -moz-animation: rotation 10s infinite linear;
+    -o-animation: rotation 10s infinite linear;
+    -ms-animation: rotation 10s infinite linear;
+    animation: rotation 10s infinite linear;
+		}
+  </style>
+</head>
+<body class="body page-index clearfix">
+  <header class="header clearfix">
+    <img class="o-logo" src="images/HomePage_SVG's_001-15.svg">
+  </header>
+  <article class="article clearfix">
+    <section class="section1 clearfix">
+      <h1 class="title">
+        <p>Create&nbsp;</p>
+        <p>Human</p>
+        <p>Experience</p>
+</h1>
+      <div class="image-corner rotation"></div>
+      <div class="image-circle rotation"></div>
+    </section>
+    <section class="section2 clearfix">
+      <div class="image-half-square rotation"></div>
+      <div class="image-square rotation"></div>
+      <div class="img-halfcircle rotation"></div>
+      <div class="image-triangle rotation"></div>
+    </section>
+  </article>
+  <footer class="footer clearfix">
+    <button onClick="window.location='page1.html';" class="_button js-page-down-btn"></button>
+  </footer>
+</body>
+</html>

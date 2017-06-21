@@ -1,0 +1,248 @@
+body {
+  height: 100%;
+  background: url('../images/logo-withGlow_01.svg') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 295px 295px;
+  background-position: center center;
+  font: normal 6.125em/1 GTWalsheimProTrial-Regular;
+  color: rgb(0, 0, 0);
+}
+
+.article {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  height: 480px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 53px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 13;
+  width: 100%;
+  height: 45px;
+}
+
+.image-circle {
+  float: left;
+  clear: both;
+  width: 9.7142857142%;
+  min-width: 38px;
+  height: 51px;
+  min-height: 38px;
+  margin: 40px 0 0 2.27483%;
+  background-image: url('../images/HomePage_SVG\'s_001-10.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.image-corner {
+  float: left;
+  clear: both;
+  width: 7.238095238%;
+  min-width: 24px;
+  height: 38px;
+  min-height: 24px;
+  margin: 36px 0 0 31.60797%;
+  background-image: url('../images/HomePage_SVG\'s_001-12.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.image-half-square {
+  float: left;
+  width: 4.8773364485%;
+  min-width: 24px;
+  height: 48px;
+  min-height: 36px;
+  background-image: url('../images/HomePage_SVG\'s_001-09.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.image-square {
+  float: left;
+  width: 6.7051207165%;
+  min-width: 34px;
+  height: 44px;
+  min-height: 34px;
+  margin: 50px 0 0 42.82759%;
+  background-image: url('../images/HomePage_SVG\'s_001-11.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.image-triangle {
+  float: left;
+  clear: both;
+  width: 7.3160046728%;
+  min-width: 32px;
+  height: 42px;
+  min-height: 36px;
+  margin: 105px 0 0 34.99562%;
+  background-image: url('../images/HomePage_SVG\'s_001-14.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.img-halfcircle {
+  float: left;
+  width: 24px;
+  min-width: 16px;
+  height: 36px;
+  min-height: 24px;
+  margin: 250px 0 0 38.56114%;
+  background-image: url('../images/HomePage_SVG\'s_001-05.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.o-logo {
+  display: block;
+  float: right;
+  width: 247px;
+  height: auto;
+  min-height: 33px;
+  max-height: 33px;
+  margin: 10px 3% 0 0;
+  overflow: hidden;
+}
+
+.section1 {
+  float: left;
+  width: 45.1046025104%;
+  height: 473px;
+}
+
+.section2 {
+  float: left;
+  width: 53.5%;
+  height: 474px;
+  margin-left: 1.0625%;
+}
+
+.title {
+  float: left;
+  margin: 10px 0 0 10.39261%;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+}
+
+._button {
+  display: block;
+  width: 42px;
+  min-width: 36px;
+  height: 42px;
+  min-height: 36px;
+  margin: 2px auto 0;
+  background-image: url('../images/HomePage_SVG\'s_001-08.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+  font: 400 0.163em/1.38 Helvetica;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+@media(max-width: 700px) {
+  body {
+    font-size: 4.375em;
+  }
+
+  .header .o-logo {
+    width: 20.5714285714%;
+    min-width: 144px;
+    height: auto;
+  }
+
+  .section1 .image-circle {
+    margin-left: 2.25676%;
+  }
+
+  .section1 .image-corner {
+    margin-left: 31.59458%;
+  }
+
+  .section1 .title {
+    margin-left: 10.37811%;
+    font-size: 70px;
+    line-height: 1.2;
+  }
+
+  .section2 .image-square {
+    margin-left: 42.82377%;
+  }
+
+  .section2 .image-triangle {
+    margin-top: 40px;
+    margin-left: 34.9924899999%;
+  }
+
+  .section2 .img-halfcircle {
+    margin-top: 344px;
+    margin-left: 21.68725%;
+  }
+
+  .footer ._button {
+    font-size: 0.229em;
+  }
+}
+
+@media(max-width: 500px) {
+  body {
+    font-size: 3.125em;
+  }
+
+  .header .o-logo {
+    height: auto;
+  }
+
+  .section1 .image-circle {
+    margin-left: 2.27257%;
+  }
+
+  .section1 .image-corner {
+    margin-left: 31.58041%;
+  }
+
+  .section1 .title {
+    margin-left: 10.36514%;
+    font-size: 50px;
+  }
+
+  .section2 .image-square {
+    margin-left: 42.8095799999%;
+  }
+
+  .section2 .image-triangle {
+    margin-left: 35%;
+  }
+
+  .section2 .img-halfcircle {
+    margin-left: 15.47313%;
+  }
+
+  .footer ._button {
+    margin-top: 6px;
+    font-size: 0.32em;
+  }
+}
