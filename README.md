@@ -4,6 +4,10 @@ Click on link below to view
 
 https://arohangit.github.io/OpenKnot/
 
+<b>To test with different viewposrt sizes, click on link below and give above url and press GO </b>
+
+http://bradfrost.com/demo/ish/
+
 
 <b>Installation</b>
 
